@@ -1,0 +1,62 @@
+/*-
+ * #%L
+ * Codenjoy - it's a dojo-like platform from developers to developers.
+ * %%
+ * Copyright (C) 2021 Codenjoy
+ * %%
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public
+ * License along with this program.  If not, see
+ * <http://www.gnu.org/licenses/gpl-3.0.html>.
+ * #L%
+ */
+ 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dojo.Games.Test
+{
+    public enum TestElement : short
+    {
+
+            // Short comment.
+
+        NONE = (short)' ',
+
+            // Long long long long long long long long long long long
+            // looooooooong long long long long long long long long long
+            // long comment.
+
+        WALL = (short)'☼',
+
+            // Another short comment.
+
+        HERO = (short)'☺',
+
+            // One more time.
+
+        OTHER_HERO = (short)'☻',
+
+        DEAD_HERO = (short)'X',
+
+            // Long name.
+
+        OTHER_DEAD_HERO_LONG_LONG_LONG_LONG_LONG = (short)'Y',
+
+            // Short name.
+
+        G = (short)'$'
+    }
+}

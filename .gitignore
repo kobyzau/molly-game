@@ -1,0 +1,13 @@
+.idea/
+*.iml
+target/
+.mvn/repository/
+.mvn/wrapper/dists/
+.jdk/
+.tools/*.zip
+/**/java-client.zip
+/**/pitest/
+*.jar
+
+# macOS
+.DS_Store
